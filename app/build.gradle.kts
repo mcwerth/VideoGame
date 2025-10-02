@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.kotlin.kapt)
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.0" // required for Kotlin 2.0+
 }
 
 android {
