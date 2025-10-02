@@ -59,7 +59,9 @@ class HomeViewModel(
     fun startRun(depth: Int) {
         viewModelScope.launch {
             when (val result = startRun(depth)) {
+
                 is GameResult.Success<RunUpdate> -> handleRun(result.data)
+
                 is GameResult.Error -> _state.value = _state.value.copy(message = result.reason)
             }
         }
