@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Videogame</string>
+    <string name="app_name">Vault of Luck</string>
+    <string name="currency_coins">Coins</string>
+    <string name="currency_gems">Gems</string>
+    <string name="currency_tokens">Tokens</string>
+    <string name="currency_essence">Essence</string>
 </resources>
