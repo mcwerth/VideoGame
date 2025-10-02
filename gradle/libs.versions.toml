@@ -21,6 +21,7 @@ truth = "1.4.2"
 mockk = "1.13.12"
 detekt = "1.23.6"
 composeCompilerPlugin = "2.0.0"
+
 playServicesAds = "22.6.0"
 coilCompose = "2.7.0"
 
@@ -64,9 +65,11 @@ coroutines = ["kotlinx-coroutines-core", "kotlinx-coroutines-android"]
 compose = ["androidx-compose-ui", "androidx-compose-runtime", "androidx-compose-foundation", "androidx-compose-animation", "androidx-compose-material3"]
 room = ["androidx-room-runtime", "androidx-room-ktx"]
 
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "composeCompilerPlugin" }
+

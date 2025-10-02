@@ -73,7 +73,9 @@ object Economy {
         return max(0.0, ratePerSecond * capped * boostMultiplier)
     }
 
+
     fun globalMultiplierFromMeta(metaLevel: Int): Double = 1.0 + ln(1.0 + metaLevel.toDouble()) * 0.25
+
 
     fun pityPreview(pullsSinceEpic: Int): Double {
         if (pullsSinceEpic < pitySoftStart) return rarityWeights.getValue("Epic")
