@@ -63,6 +63,8 @@ coroutines = ["kotlinx-coroutines-core", "kotlinx-coroutines-android"]
 compose = ["androidx-compose-ui", "androidx-compose-runtime", "androidx-compose-foundation", "androidx-compose-animation", "androidx-compose-material3"]
 room = ["androidx-room-runtime", "androidx-room-ktx"]
 
+
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
