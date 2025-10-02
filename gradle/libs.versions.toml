@@ -22,7 +22,6 @@ mockk = "1.13.12"
 detekt = "1.23.6"
 composeCompilerPlugin = "2.0.0"
 
-
 playServicesAds = "22.6.0"
 coilCompose = "2.7.0"
 
